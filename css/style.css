@@ -277,3 +277,44 @@ button:hover{
     width: 25%;
     left: 3%;
 }
+/*--------follow-pg-----------------------------------------------------------------------------------*/
+.follow-pg-container{
+    width: 100%;
+    
+}
+.details-follow{
+    width: 100%;
+    
+    justify-content: space-between;
+}
+.left-follo{
+    display: flex;
+    gap: 1%;
+    padding-left:2% ;
+}
+#btn-last {
+    background-color: rgb(67, 67, 73);
+   
+    margin: 0;
+    color: var(--color-1);
+    border-color: #000;
+    
+}
+#btn-last:hover{
+    background-color: var(--color-1);
+    color: var(--accent-color);
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.right-follo{
+left: 25%;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: end;
+padding-right: 2%;
+}
+.fa-brands{
+    color: var(--text-color);
+}
