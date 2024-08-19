@@ -318,3 +318,71 @@ padding-right: 2%;
 .fa-brands{
     color: var(--text-color);
 }
+/*-------------------------------------footer---------------------------------------------------------*/
+.footer-container{
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}  
+.footer-part {
+    width: 90%;
+    display: flex;
+    padding-top: 2%;
+
+}
+.content-footer ul{
+    display: flex;
+    flex-direction: column;
+    width: 16.6%;
+}
+.content-footer ul li{
+    font-size: 11px;
+    line-height: 25px;
+    color: var(--text-color);
+}
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+width: 100%;
+}
+.content-footer ul h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.footer-end{
+    width: 90%;
+    display: flex;
+}
+.lt{
+    display: flex;
+    width: 50%; 
+    
+    
+}
+.lt ul{
+    display: flex;
+    gap: 3%;
+}
+.rt{
+    display: flex;
+    width: 50%;
+}
+.foot-con{
+    width: 100%;
+    display: flex;
+    padding: 2% 0;
+}
+.foot-con ul li{
+    color: var(--text-color);
+    font-size: 13px;
+}
+.rt ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
