@@ -27,3 +27,72 @@ body{
 main{
     background-color:var(--color-1);
 }
+/*-------------------------------------Start---------------------------------------------------------*/.nav-container{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:var(--color-1);
+    height: 3.5rem;
+    max-width: 100%;
+    max-height: 3.5rem;
+}
+/*-------------------------------------Start---------------------------------------------------------*/
+/*-------------------------------------nav---------------------------------------------------------*/
+#nav-1{
+    margin: 0 ;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.logo{
+    width: 85%;
+    height: auto;
+    padding: 3px;
+    margin: 0;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+  }
+.ul-add-0{
+    width: 16%;
+    height: 100%;
+    padding-left: 6%;
+    padding-top: 8px;
+}
+.ul-add{
+    
+    width: 47%;
+    right: 28%;
+}
+.ul-add-2{
+    width: 37%;
+    padding-left: 10%;
+}
+  li {
+    float: left;
+ }
+  
+  li a {
+    display: block;
+    color: var(--text-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.content-nav{
+    display: flex;
+}
