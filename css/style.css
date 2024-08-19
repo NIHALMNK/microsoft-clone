@@ -275,7 +275,10 @@ button:hover{
     position: absolute;
     top:40%;
     width: 25%;
-    left: 3%;
+    left: 6%;
+}
+.ads-cards img{
+    padding: 2%;
 }
 /*--------follow-pg-----------------------------------------------------------------------------------*/
 .follow-pg-container{
