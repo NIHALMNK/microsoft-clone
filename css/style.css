@@ -296,10 +296,10 @@ button:hover{
     padding-left:2% ;
 }
 #btn-last {
-    background-color: rgb(67, 67, 73);
+    background-color: #F2F2F2;
    
     margin: 0;
-    color: var(--color-1);
+    color:var(--text-color);
     border-color: #000;
     
 }
