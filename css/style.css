@@ -254,3 +254,26 @@ button:hover{
     padding-top: 14px;
     color: var(--accent-color);
   }
+   /*-------------------Ads-img--------------------------------------------------------------------------*/
+ .container-ads-card{
+    width: 100%;
+
+ }
+
+
+
+
+ .img-ads img{
+    width: 100%;
+    object-fit: cover;
+
+ }
+.ads-cards{
+    position: relative;
+}
+.details-ads{
+    position: absolute;
+    top:40%;
+    width: 25%;
+    left: 3%;
+}
